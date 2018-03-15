@@ -1,0 +1,46 @@
+box {
+  height: 70px;
+  width: 100px;
+  background-color: pink;
+  display: block;
+  text-align: center;
+  padding-top: 30px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.toggle {
+  background-color: #DDD;
+}
+
+expand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid gray;
+  margin: 15px auto;
+  width: 50%;
+  background-color: #AAA;
+}
+
+red {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  margin: 5px;
+  display: block;
+}
+
+.profileCard {
+  width: 150px;
+  height: 100px;
+  background-color: #EEE;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  cursor: pointer;
+}
